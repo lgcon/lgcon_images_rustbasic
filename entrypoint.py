@@ -26,7 +26,9 @@ LGC_RUST_OXIDE_CONFIGURL = os.environ['LGC_RUST_OXIDE_CONFIGURL']
 
 
 # Install/update steamcmd
-exec(open('/lgc/scripts/installers/install_steamcmd.py').read())
+# exec(open('/lgc/scripts/installers/install_steamcmd.py').read())
+# Install/update rust
+exec(open('/lgc/scripts/installers/install_rust.py').read())
 
 
 
