@@ -1,4 +1,5 @@
-FROM ubuntu:latest
+ARG VARIANT=focal
+FROM mcr.microsoft.com/vscode/devcontainers/base:${VARIANT}
 
 ENV LGC_INSTANCE_NAME="LGC"
 ENV LGC_GAME="rust"

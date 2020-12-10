@@ -20,4 +20,4 @@ os.system('apt-get clean && rm -rf /var/lib/apt/lists/* /var/tmp/* /tmp/*')
 
 # Install steamcmd and verify that it is working
 os.system(f'mkdir -p /steamcmd && curl -s {url_steamcmd} | tar -v -C /steamcmd -zx')
-os.system('chmod +x /steamcmd/steamcmd.sh && /steamcmd/steamcmd.sh +login anonymous +quit')
+os.system('sudo chmod +x /steamcmd/steamcmd.sh && /steamcmd/steamcmd.sh +login anonymous +quit')
